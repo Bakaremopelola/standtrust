@@ -9,7 +9,9 @@ function Footer() {
             {/* About Section */}
             <div className="flex flex-col p-8 my-4 lg:flex-row lg:justify-between lg:items-center">
                 <p className="text-sm lg:text-base leading-relaxed">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos obcaecati architecto earum recusandae officia sunt voluptate aut in quidem dolore expedita sed voluptas nemo facilis at molestiae soluta dolor rem, voluptates, quasi labore? Soluta iusto similique assumenda quae sit molestias deleniti, accusantium expedita enim sunt commodi earum. Veritatis, quidem dolore.
+                    In Almighty Jehovah God through our Lord Jesus Christ, we trust and stand.
+                    We specialize in Electrical Electronic Earthing, Lightning Protection, House Wiring
+                    (British Standard 5567), Renovations, and more. Your satisfaction is our pride.
                 </p>
             </div>
 
@@ -19,7 +21,8 @@ function Footer() {
                 <div>
                     <em className="h-16 w-16 flex rounded-full border items-center justify-center mb-4">Logo</em>
                     <div className="text-sm lg:text-base leading-relaxed">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo fugit impedit, pariatur deleniti perspiciatis delectus nesciunt minus voluptatem magni autem.
+                        We provide solutions for all your electrical and building needs. Reliable and competent,
+                        we deliver happiness with professionalism.
                     </div>
                 </div>
 
@@ -27,27 +30,26 @@ function Footer() {
                 <div className="flex flex-col">
                     <h4 className="mb-4 font-bold">Quick Links</h4>
                     <a href="/" className="hover:text-blue-500">Home</a>
-                    <a href="/" className="hover:text-blue-500">About us</a>
-                    <a href="/" className="hover:text-blue-500">Solar initiatives</a>
-                    <a href="/" className="hover:text-blue-500">Our services</a>
-                    <a href="/" className="hover:text-blue-500">Community</a>
-                    <a href="/" className="hover:text-blue-500">Aesthetics</a>
+                    <a href="/about" className="hover:text-blue-500">About Us</a>
+                    <a href="/services" className="hover:text-blue-500">Our Services</a>
+                    <a href="/projects" className="hover:text-blue-500">Projects</a>
+                    <a href="/contact" className="hover:text-blue-500">Contact</a>
                 </div>
 
                 {/* Services */}
                 <div className="flex flex-col">
                     <h4 className="mb-4 font-bold">Services</h4>
-                    <a href="/" className="hover:text-blue-500">Solar Solution</a>
-                    <a href="/" className="hover:text-blue-500">Cable Services</a>
-                    <a href="/" className="hover:text-blue-500">Deals and Promotion</a>
-                    <a href="/" className="hover:text-blue-500">Consultation and Support</a>
+                    <a href="/" className="hover:text-blue-500">Electrical Installations</a>
+                    <a href="/" className="hover:text-blue-500">House Wiring</a>
+                    <a href="/" className="hover:text-blue-500">Building Renovations</a>
+                    <a href="/" className="hover:text-blue-500">Property Management</a>
                 </div>
 
                 {/* Contact */}
                 <div className="flex flex-col">
                     <h4 className="mb-4 font-bold">Contact</h4>
-                    <a className="flex gap-2 items-center text-sm hover:text-blue-500" href="/"><BiPhone /> 012345567889</a>
-                    <a className="flex gap-2 items-center text-sm hover:text-blue-500" href="/"><MdMail /> companyname@gmail.com</a>
+                    <a className="flex gap-2 items-center text-sm hover:text-blue-500" href="/"><BiPhone /> +234 123 456 7890</a>
+                    <a className="flex gap-2 items-center text-sm hover:text-blue-500" href="/"><MdMail /> support@company.com</a>
                     <div className="flex gap-4 mt-4">
                         <a href="/" className="hover:text-blue-500"><FaFacebook /></a>
                         <a href="/" className="hover:text-blue-500"><BsTwitter /></a>
@@ -58,7 +60,7 @@ function Footer() {
 
             {/* Footer Bottom */}
             <div className="flex items-center justify-center h-16 text-sm lg:text-base text-gray-400">
-                &copy; {new Date().getFullYear()} Company Name - Developed by Roots Digital Marketing
+                &copy; {new Date().getFullYear()} Trusted Solutions - All rights reserved.
             </div>
         </div>
     );

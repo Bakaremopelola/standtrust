@@ -1,51 +1,3 @@
-// import { GiCard7Clubs, GiSolarPower } from "react-icons/gi"
-// import { LuCable } from "react-icons/lu"
-// import { RiCustomerServiceFill } from "react-icons/ri"
-
-
-// const WhatWeDo = () => {
-//     return (
-//         <div>
-//             <div>
-//                 <h5>our services</h5>
-//                 <h3>What We Do</h3>
-
-//                 <div className="grid grid-cols-3 px-8 text-justify gap-8">
-//                     <div className="grid grid-rows-2 gap-8">
-//                         <div>
-//                             <GiSolarPower />
-//                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus ducimus quaerat recusandae sunt perferendis unde sit possimus amet, animi doloribus deleniti modi labore! Praesentium ad beatae neque, nemo minima temporibus!</p>
-//                         </div>
-
-//                         <div>
-//                             <LuCable />
-//                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus ducimus quaerat recusandae sunt perferendis unde sit possimus amet, animi doloribus deleniti modi labore! Praesentium ad beatae neque, nemo minima temporibus!</p>
-//                         </div>
-//                     </div>
-//                     <img src="" alt="" className="w-[30vw]" />
-//                     <div className="grid grid-rows-2 gap-8">
-//                         <div>
-//                             <GiCard7Clubs />
-//                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus ducimus quaerat recusandae sunt perferendis unde sit possimus amet, animi doloribus deleniti modi labore! Praesentium ad beatae neque, nemo minima temporibus!</p>
-//                         </div>
-
-//                         <div>
-//                             <RiCustomerServiceFill />
-//                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus ducimus quaerat recusandae sunt perferendis unde sit possimus amet, animi doloribus deleniti modi labore! Praesentium ad beatae neque, nemo minima temporibus!</p>
-//                         </div>
-//                     </div>
-//                 </div>
-//             </div>
-
-//         </div>
-//     )
-// }
-
-// export default WhatWeDo
-
-
-
-
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -55,9 +7,8 @@ import { RiCustomerServiceFill } from "react-icons/ri";
 
 const WhatWeDo = () => {
     useEffect(() => {
-
         AOS.init({
-            duration: 1000,  // Set animation duration (adjust as needed)
+            duration: 1000, // Set animation duration (adjust as needed)
             easing: "ease-in-out",
             once: true, // Make sure animations happen only once
         });
@@ -79,9 +30,8 @@ const WhatWeDo = () => {
                     >
                         <GiSolarPower className="text-4xl text-green-500" />
                         <p className="text-sm text-gray-600 text-center">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus
-                            ducimus quaerat recusandae sunt perferendis unde sit possimus amet,
-                            animi doloribus deleniti modi labore!
+                            Supply and installation of electrical and electronic materials of various types and sizes, 
+                            ensuring compliance with industry standards and customer satisfaction.
                         </p>
                     </div>
 
@@ -93,9 +43,8 @@ const WhatWeDo = () => {
                     >
                         <LuCable className="text-4xl text-blue-500" />
                         <p className="text-sm text-gray-600 text-center">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus
-                            ducimus quaerat recusandae sunt perferendis unde sit possimus amet,
-                            animi doloribus deleniti modi labore!
+                            House wiring, both surface and conduit, designed and executed to the British Standard 5567, 
+                            tailored to meet the needs of modern homes and offices.
                         </p>
                     </div>
                 </div>
@@ -112,7 +61,6 @@ const WhatWeDo = () => {
                     />
                 </div>
 
-
                 <div className="grid gap-8">
                     {/* Service 3 */}
                     <div
@@ -122,9 +70,8 @@ const WhatWeDo = () => {
                     >
                         <GiCard7Clubs className="text-4xl text-purple-500" />
                         <p className="text-sm text-gray-600 text-center">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus
-                            ducimus quaerat recusandae sunt perferendis unde sit possimus amet,
-                            animi doloribus deleniti modi labore!
+                            Renovation and building contracting services with a commitment to quality and 
+                            timely delivery, ensuring customer needs are fully met.
                         </p>
                     </div>
 
@@ -136,9 +83,8 @@ const WhatWeDo = () => {
                     >
                         <RiCustomerServiceFill className="text-4xl text-yellow-500" />
                         <p className="text-sm text-gray-600 text-center">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus
-                            ducimus quaerat recusandae sunt perferendis unde sit possimus amet,
-                            animi doloribus deleniti modi labore!
+                            Reliable house agent services, including assistance with finding landed property 
+                            anywhere in Nigeria. We pride ourselves on being your trusted partner.
                         </p>
                     </div>
                 </div>

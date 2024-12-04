@@ -47,7 +47,6 @@ Adedokun Peter Akintomiwa
 
 
 
-
 template figma used for building this application
 https://www.figma.com/design/TQiPGZ9FuM43SdVQhDqvrh/website-design---solar-solution---corporate-(Community)?node-id=0-1&node-type=canvas
 
