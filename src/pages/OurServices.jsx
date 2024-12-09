@@ -40,7 +40,7 @@ const OurServices = () => {
             <h2 className="text-4xl font-bold text-center mb-8" data-aos="fade-up">
                 Our Services
             </h2>
-            <p className="text-lg text-center max-w-3xl mx-auto mb-12" data-aos="fade-up" data-aos-delay="200">
+            <p className="text-lg text-center w-3xl lg:w-[75vw] mx-auto mb-12" data-aos="fade-up" data-aos-delay="200">
                 In Almighty Jehovah God through our Lord Jesus Christ we Trust and Stand.
                 <br />
                 Let’s connect with you by giving us the chance to handle all your needs in times of Electrical, Electronic, Earthing, Lighting, Attack Supply, and Installation.

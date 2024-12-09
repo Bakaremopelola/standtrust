@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import img from "../../assets/commit.webp";
 import { GiCard7Clubs, GiSolarPower } from "react-icons/gi";
 import { LuCable } from "react-icons/lu";
 import { RiCustomerServiceFill } from "react-icons/ri";
@@ -15,7 +16,7 @@ const WhatWeDo = () => {
     }, []);
 
     return (
-        <div className="py-8 px-4 md:px-16 h-auto">
+        <div className="py-8 px-4 md:px-16 h-auto lg:h-[100vh]">
             <div className="text-center mb-12">
                 <h5 className="text-gray-600 text-xl">Our Services</h5>
                 <h3 className="text-3xl font-bold text-gray-800">What We Do</h3>
@@ -55,7 +56,7 @@ const WhatWeDo = () => {
                     className="flex justify-center items-center"
                 >
                     <img
-                        src="your-image-url-here"
+                        src={img}
                         alt="Service Illustration"
                         className="w-[80%] md:w-[30vw] rounded-lg"
                     />

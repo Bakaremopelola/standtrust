@@ -8,10 +8,9 @@ function Footer() {
         <div className="flex flex-col w-full bg-black text-gray-300">
             {/* About Section */}
             <div className="flex flex-col p-8 my-4 lg:flex-row lg:justify-between lg:items-center">
-                <p className="text-sm lg:text-base leading-relaxed">
-                    In Almighty Jehovah God through our Lord Jesus Christ, we trust and stand.
-                    We specialize in Electrical Electronic Earthing, Lightning Protection, House Wiring
-                    (British Standard 5567), Renovations, and more. Your satisfaction is our pride.
+                <p className="text-sm leading-relaxed lg:w-[70vw] mx-auto lg:text-2xl lg:text-center">
+                    We are committed to delivering exceptional electrical, earthing, and property management solutions. 
+                    With years of experience, we strive to ensure client satisfaction by providing reliable and professional services.
                 </p>
             </div>
 
@@ -21,8 +20,8 @@ function Footer() {
                 <div>
                     <em className="h-16 w-16 flex rounded-full border items-center justify-center mb-4">Logo</em>
                     <div className="text-sm lg:text-base leading-relaxed">
-                        We provide solutions for all your electrical and building needs. Reliable and competent,
-                        we deliver happiness with professionalism.
+                        Your trusted partner in electrical installations, house wiring, renovations, and property management. 
+                        Delivering solutions tailored to meet your needs with excellence and professionalism.
                     </div>
                 </div>
 

@@ -8,7 +8,7 @@ const WhyChoose = () => {
     ];
 
     return (
-        <section className="py-16 bg-gray-50">
+        <section className="py-16">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 {/* Title and Description */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">

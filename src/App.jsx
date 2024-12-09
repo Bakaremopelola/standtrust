@@ -7,7 +7,7 @@ const App = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
-      <main className="flex-grow">
+      <main className="flex-grow mt-16">
         <RouterProvider router={router} />
       </main>
       <Footer />

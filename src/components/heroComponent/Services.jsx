@@ -13,7 +13,7 @@ const Services = () => {
   }, []);
 
   return (
-    <section className="py-8 px-4 lg:px-16 bg-gray-100">
+    <section className="py-8 px-4 lg:px-16 bg-gray-100 md:h-[80vh] my-8">
       <div className="text-center mb-8" data-aos="fade-up">
         <h2 className="text-2xl md:text-4xl font-bold text-gray-800">
           Our Expertise and Experience
