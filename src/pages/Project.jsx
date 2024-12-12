@@ -1,31 +1,35 @@
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import elec from '../assets/ele.jpeg';
+import earth from '../assets/earth.jpg';
+import renovate from '../assets/renovate.webp';
+import props from '../assets/props.png';
 
 const projects = [
     {
         title: "Electrical Installations",
         description:
             "Comprehensive electrical installations including house wiring, surface, and conduit wiring designed to meet British Standards.",
-        img: "your-image-url-1", // Replace with the actual image URL
+        img: elec, // Replace with the actual image URL
     },
     {
         title: "Renovation & Building Contracting",
         description:
             "High-quality renovation and building contracting services tailored to meet client needs with precision and efficiency.",
-        img: "your-image-url-2", // Replace with the actual image URL
+        img: renovate, // Replace with the actual image URL
     },
     {
         title: "Property Management",
         description:
             "Reliable property management and house agent services to help you find and manage properties anywhere in Nigeria.",
-        img: "your-image-url-3", // Replace with the actual image URL
+        img: props, // Replace with the actual image URL
     },
     {
         title: "Lightning Protection Systems",
         description:
             "Installation of reliable lightning protection systems to safeguard your property and ensure safety during storms.",
-        img: "your-image-url-4", // Replace with the actual image URL
+        img: earth, // Replace with the actual image URL
     },
 ];
 

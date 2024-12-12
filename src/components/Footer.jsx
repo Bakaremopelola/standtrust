@@ -2,7 +2,7 @@ import { BiPhone } from "react-icons/bi";
 import { BsInstagram, BsTwitter } from "react-icons/bs";
 import { FaFacebook } from "react-icons/fa";
 import { MdMail } from "react-icons/md";
-
+import img from "../assets/ssams.jpg";
 function Footer() {
     return (
         <div className="flex flex-col w-full bg-black text-gray-300">
@@ -18,7 +18,7 @@ function Footer() {
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 p-8 border-y border-gray-500 w-[90vw] mx-auto">
                 {/* Logo and Description */}
                 <div>
-                    <em className="h-16 w-16 flex rounded-full border items-center justify-center mb-4">Logo</em>
+                    <em className="h-16 w-16 flex rounded-full border items-center justify-center mb-4"><img src={img} alt="" className="h-8 w-8" /> </em>
                     <div className="text-sm lg:text-base leading-relaxed">
                         Your trusted partner in electrical installations, house wiring, renovations, and property management. 
                         Delivering solutions tailored to meet your needs with excellence and professionalism.

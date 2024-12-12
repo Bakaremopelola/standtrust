@@ -1,34 +1,46 @@
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import elec from '../assets/ele.jpeg';
+import sup from '../assets/sup.jpg';
+import build from '../assets/bui.jpeg';
+import earth from '../assets/earth.jpg';
+import land from '../assets/landed.png';
+import main from '../assets/main.webp';
 
 const services = [
     {
-        title: 'Solar Panel Installation',
-        description: 'We provide expert solar panel installations for homes and businesses to maximize energy efficiency.',
-        image: '/images/solar-panel.jpg',
+        title: 'Electrical Wiring & Installation',
+        description: 'We specialize in house wiring, surface, and conduit installation according to British Standard 5567.',
+        image: elec,
     },
     {
-        title: 'Energy Storage Solutions',
-        description: 'Store surplus energy with our state-of-the-art energy storage systems, ensuring power availability 24/7.',
-        image: '/images/energy-storage.jpg',
+        title: 'Supply of Electrical Materials',
+        description: 'We provide a wide range of electrical and electronic materials of various types and sizes.',
+        image: sup,
     },
     {
-        title: 'Solar Consultation',
-        description: 'Get professional guidance to understand your solar energy needs and create tailored solutions.',
-        image: '/images/solar-consultation.jpg',
+        title: 'Building Renovation & Contracting',
+        description: 'Expert renovation and building contracting services tailored to meet your needs.',
+        image: build,
     },
     {
-        title: 'Solar Farm Development',
-        description: 'We design and develop large-scale solar farms to harness the power of renewable energy.',
-        image: '/images/solar-farm.jpg',
+        title: 'Earthing & Lightning Protection',
+        description: 'Reliable earthing and lightning protection systems for homes and businesses.',
+        image: earth,
     },
     {
-        title: 'Maintenance & Repair Services',
-        description: 'Ensure optimal performance of your solar systems with our reliable maintenance and repair services.',
-        image: '/images/maintenance.jpg',
+        title: 'Landed Property Solutions',
+        description: 'We are competent and reliable house agents. Need landed property anywhere in Nigeria? Count on us.',
+        image: land,
+    },
+    {
+        title: 'Maintenance & Repairs',
+        description: 'Ensure optimal performance of your electrical systems with our maintenance and repair services.',
+        image: main,
     },
 ];
+
 
 const OurServices = () => {
     useEffect(() => {

@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
-
+import img from "../assets/ssams.jpg"
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
 
@@ -10,7 +10,7 @@ const Header = () => {
         <header className="fixed top-0 left-0 w-full bg-black text-white z-50">
             <div className="flex justify-between items-center h-16 px-4 md:px-16">
                 {/* Logo */}
-                <div className="text-lg font-bold">Trusted Solutions</div>
+                <div className="text-lg font-bold"> <img src={img} className="h-16 w-16 "  alt="Logo" /> </div>
 
                 {/* Desktop Links */}
                 <nav className="hidden md:flex gap-6">

@@ -11,27 +11,20 @@ function Hero() {
         });
     }, []);
 
-    // Assuming imagePath is passed down as a prop or set dynamically somewhere else in your app
-    const imagePath = ''; // If no image path is available, this can be an empty string or null.
+    const imagePath = ''; // Adjust this value if a background image is required
 
     return (
         <div
             className={`h-screen flex flex-col justify-center items-center md:items-start text-black px-4 md:px-16 ${imagePath ? `bg-[url('${imagePath}')] bg-right bg-cover` : ''}`}
             data-aos="fade-down"
         >
-            <div className="text-center md:text-left space-y-4">
+            <div className="text-center md:text-left space-y-4 lg:w-[60vw]">
                 <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold">
-                    SOLAR
+                    SOLUTIONS FOR
+                <span className="text-red-600">ALL YOUR</span> ELECTRICAL,
+              BUILDING, AND PROPERTY NEEDS <span className="text-red-600">.</span>
                 </h1>
-                <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold">
-                    <span className="text-red-600">SOLUTIONS</span> FOR
-                </h1>
-                <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold">
-                    A SUSTAINABLE
-                </h1>
-                <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold">
-                    TOMORROW <span className="text-red-600">.</span>
-                </h1>
+                
             </div>
         </div>
     );
